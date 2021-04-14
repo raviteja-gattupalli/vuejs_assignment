@@ -5,6 +5,7 @@ import About from '../views/About.vue';
 import Allusers from '../components/Allusers.vue';
 import Mydetails from '../components/Mydetails.vue';
 import assignment4 from '../components/assignment4.vue';
+import axiosexp from '../components/axiosexp.vue';
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/assignment4',
     name: 'assignment4',
     component: assignment4,
+  },
+  {
+    path: '/axios',
+    name: 'axios',
+    component: axiosexp,
   },
 ];
 

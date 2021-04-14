@@ -1,10 +1,12 @@
 <template>
+<v-app>
   <div id="app">
     <Header />
      <Sidenav />
      <br>
     <router-view/>
   </div>
+</v-app>
 </template>
 <script>
 import Header from './components/Header.vue';
